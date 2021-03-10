@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Social Network</title>
+  </head>
+
+  <body>
+    <!-- Header here -->
+    <header class="head">
+      <div class="nav-right">
+        <a href="#"><i class="fas fa-home fa-lg"></i><span>Seytech</span></a>
+      </div>
+      <div class="nav-left">
+        <ul>
+          <li class="nav-list"></li>
+          <a href="#"><i class="fas fa-globe-americas fa-lg"></i></a>
+          <li class="nav-list"></li>
+          <a href="#"><i class="fas fa-user fa-lg"></i></a>
+          <li class="nav-list"></li>
+          <a href="#"><i class="fas fa-envelope fa-lg"></i></a>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="grid">
+      <!-- left col here -->
+      <section class="left-column">
+        <div class="my-profile">
+          <div class="container-profile">
+            <h4>My Profile</h4>
+            <img
+              src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/marat.jpg"
+              alt="profile_img"
+            />
+
+            <hr />
+
+            <p><i class="fas fa-pencil-alt"></i> Software Engineer</p>
+            <p><i class="fas fa-home"></i> Seattle, WA</p>
+            <p><i class="fas fa-birthday-cake"></i>April 10</p>
+          </div>
+        </div>
+
+        <div class="team-event-photos">
+          <button id="btn-border" class="btn">
+            <i class="fas fa-circle-notch fa-lg"></i>
+            <div class="margin-left">My Team</div>
+          </button>
+          <div class="description">
+            <span
+              style="
+                background-color: #add7eb;
+                color: rgb(63, 62, 62);
+                padding: 0 5px;
+              "
+              >Maner (Scrum Master)</span
+            ><br />
+            <span
+              style="
+                background-color: #add7eb;
+                color: rgb(63, 62, 62);
+                padding: 0 5px;
+              "
+              >Sevda (Tech Lead)</span
+            ><br />
+            <span
+              style="
+                background-color: #add7eb;
+                color: rgb(63, 62, 62);
+                padding: 0 5px;
+              "
+              >Gauhar</span
+            ><br />
+            <span
+              style="
+                background-color: #add7eb;
+                color: rgb(63, 62, 62);
+                padding: 0 5px;
+              "
+              >Akerke</span
+            >
+          </div>
+
+          <button class="btn">
+            <i class="fas fa-calendar-check fa-lg"></i>
+            <div class="margin-left">My Events</div>
+          </button>
+          <div class="description">To be announced soon..</div>
+          <button class="btn">
+            <i class="fas fa-users fa-lg"></i>
+            <div class="margin-left">My Photos</div>
+          </button>
+          <div class="photo-display">
+            <div class="photo">
+              <img
+                src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/lights.jpg"
+                alt=""
+              />
+            </div>
+            <div class="photo">
+              <img
+                src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/nature.jpg"
+                alt=""
+              />
+            </div>
+            <div class="photo">
+              <img
+                src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/mountains.jpg"
+                alt=""
+              />
+            </div>
+            <div class="photo">
+              <img
+                src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/forest.jpg"
+                alt=""
+              />
+            </div>
+            <div class="photo">
+              <img
+                src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/nature.jpg"
+                alt=""
+              />
+            </div>
+            <div class="photo">
+              <img
+                src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/snow.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="clr"></div>
+
+        <div class="interests">
+          <p>Interests</p>
+          <p>
+            <span
+              style="background-color: #01557c; color: white; padding: 0 5px"
+              >News</span
+            >
+            <span
+              style="background-color: #076490; color: white; padding: 0 5px"
+              >Seytech</span
+            >
+            <span
+              style="background-color: #078fce; color: white; padding: 0 5px"
+              >Algos</span
+            >
+            <span
+              style="background-color: #0a91cf; color: white; padding: 0 5px"
+              >Games</span
+            >
+            <span
+              style="background-color: #0c90ce; color: white; padding: 0 5px"
+              >Friends</span
+            >
+            <span
+              style="background-color: #56a4be; color: black; padding: 0 5px"
+              >Food</span
+            >
+            <span
+              style="background-color: #779bb3; color: black; padding: 0 5px"
+              >Design</span
+            >
+            <span
+              style="background-color: #95b8cf; color: black; padding: 0 5px"
+              >Art</span
+            >
+            <span
+              style="background-color: #b9cad4; color: black; padding: 0 5px"
+              >Photos</span
+            >
+          </p>
+        </div>
+        <div class="hey">
+          <i id="icon-top" class="fas fa-times fa-lg"></i>
+          <p>
+            <strong>Hey!</strong>
+          </p>
+          <p>People are looking at your profile. Find out who.</p>
+        </div>
+      </section>
+
+      <!-- mid col here -->
+      <section class="columncenter">
+        <div class="center-column">
+          <div class="status">
+            <input id="statusholder" value="Status: Feeling Blue" />
+            <br />
+            <a
+              ><button type="button" class="button">
+                <i class="fas fa-pencil-alt fa-lg"></i> Post
+              </button>
+            </a>
+          </div>
+        </div>
+        <br />
+
+        <div class="center-column">
+          <div class="rachel">
+            <br />
+            <img
+              src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/rachel.jpeg"
+              alt="rachel"
+              class="rachelsphoto"
+              style="width: 60px"
+            />
+            <span class="time">1 min</span>
+            <h4>Rachel Sine</h4>
+            <br />
+            <hr class="line" />
+            <p>
+              Next cohort will start soon. We strive for teaching our students
+              the most up-to-date programming technologies. Contact us.
+            </p>
+            <div class="pictures">
+              <img
+                src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/p0.png"
+                alt="shirts"
+                class="rachels2pic"
+                style="width: 100%"
+              />
+              <img
+                src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/p1.jpg"
+                alt="coding"
+                class="rachels2pic"
+                style="width: 100%"
+              />
+            </div>
+            <br />
+            <a
+              ><button type="button" class="button">
+                <i class="fas fa-thumbs-up fa-lg"></i> Like
+              </button>
+            </a>
+            <a
+              ><button type="button" class="button">
+                <i class="fas fa-comment fa-lg"></i> Comment
+              </button>
+            </a>
+          </div>
+        </div>
+        <br />
+
+        <div class="center-column">
+          <div class="aikol">
+            <br />
+            <img
+              src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/aikol.jpeg"
+              alt="aikol"
+              class="aikolsphoto"
+              style="width: 60px"
+            />
+            <span class="time">16 min</span>
+            <h4>Aikol T</h4>
+            <br />
+            <hr class="line" />
+            <p>
+              Join us at the new and improved Microsoft! We are building the
+              Developer Relations dream team in Azure engineering. Our global
+              team is...
+            </p>
+            <a
+              ><button type="button" class="button">
+                <i class="fas fa-thumbs-up fa-lg"></i> Like
+              </button>
+            </a>
+            <a
+              ><button type="button" class="button">
+                <i class="fas fa-comment fa-lg"></i> Comment
+              </button>
+            </a>
+          </div>
+        </div>
+        <br />
+        <div class="center-column">
+          <div class="luan">
+            <br />
+            <img
+              src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/ulan.jpeg"
+              alt="luan"
+              class="aikolsphoto"
+              style="width: 60px"
+            />
+            <span class="time">32 min</span>
+            <h4>L'uan R</h4>
+            <br />
+            <hr class="line" />
+            <p>Have you seen this?</p>
+            <img
+              src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/web.png"
+              alt="development"
+              class="luans2pic"
+              style="width: 100%"
+            />
+            <p>
+              Coding bootcamp reviews, rankings, and resources to help students
+              find what they need.
+              <br />
+              <a
+                href="https://learn.seytech.co/pages/errors/error-404"
+                id="bootcampvenue"
+                >Bootcamp Venue</a
+              >
+            </p>
+            <a
+              ><button type="button" class="button">
+                <i class="fas fa-thumbs-up fa-lg"></i> Like
+              </button>
+            </a>
+            <a
+              ><button type="button" class="button">
+                <i class="fas fa-comment fa-lg"></i> Comment
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- left col here -->
+      <section class="left column">
+        <div class="events">
+          <div class="container-events">
+            <p>Upcoming Events:</p>
+            <img
+              src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/event.png"
+              alt="seytech"
+            />
+
+            <p><strong>React course</strong></p>
+            <p>Friday 15:00</p>
+            <div class="info">
+              <button class="info">Info</button>
+            </div>
+          </div>
+          <br />
+          <div class="request">
+            <div class="container-request">
+              <p>Friend Request:</p>
+              <figure>
+                <img
+                  src="http://learn.seytech.co/assets/images/avatars/default.jpg"
+                  alt="avatar"
+                />
+                <figcaption>Shiba Inu</figcaption>
+              </figure>
+
+              <div class="check">
+                <button class="check-1">
+                  <i class="fas fa-check fa-lg"></i>
+                </button>
+                <button class="check-2">
+                  <i class="fas fa-times fa-lg"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="clr" />
+        <div class="ads">ADS</div>
+        <br />
+        <div class="bug">
+          <i class="fas fa-bug fa-2x"></i>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h5 class="footer">Footer</h5>
+      <p class="team">Powered by <a href="#">Team-7</a></p>
+    </footer>
+  </body>
+</html>
