@@ -1,0 +1,427 @@
+/* clear float */
+.clr {
+  clear: both;
+}
+
+/* global style */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f5f7f8;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.container-profile,
+.container-events,
+.container-request,
+.ads,
+.center-column,
+.bug,
+.team-event-photos,
+.interests,
+.hey {
+  border: 1px solid white;
+  box-shadow: 0px 2px 5px 4px rgb(224, 222, 222);
+}
+
+.info button:hover,
+.check-1:hover,
+.check-2:hover,
+.nav-right:hover,
+a :hover,
+.btn:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+header,
+.button,
+.btn {
+  background-color: #199de5;
+  color: white;
+}
+
+header,
+header ul,
+.check,
+.ads,
+.bug,
+.column {
+  display: flex;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid rgb(194, 193, 193);
+}
+/* ==header== */
+header {
+  height: 50px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header ul {
+  justify-content: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.nav-right span {
+  padding-right: 20px;
+  font-size: 17px;
+}
+.nav-right {
+  background-color: #2b617e;
+}
+
+.nav-left ul i:hover {
+  background-color: white;
+  color: black;
+}
+header i {
+  padding: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 25% 55% 18%;
+  grid-gap: 20px;
+  max-width: 1400px;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+/* (column-1 , row-1) my profile section */
+
+.container-profile {
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  min-height: 310px;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+.container-profile img {
+  display: inline-block;
+  margin: 10px;
+  border-radius: 50%;
+  width: 110px;
+  min-height: 110px;
+}
+.container-profile h4 {
+  font-size: 20px;
+  margin: 0;
+}
+.container-profile p {
+  text-align: left;
+  padding: 5px;
+  margin-top: 8px;
+}
+.container-profile p i {
+  color: #607d8b;
+  display: inline-block;
+  padding: 0 10px;
+}
+.container-profile hr {
+  width: 90%;
+}
+
+/* upcoming events section */
+
+.container-events {
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+  min-height: 400px;
+  width: 100%;
+
+  border-radius: 5px;
+}
+.container-events p {
+  margin: 15px;
+}
+
+.container-events img {
+  width: 85%;
+  min-height: 180px;
+}
+
+.info button {
+  border: transparent;
+  width: 100%;
+  min-height: 40px;
+  background-color: #dfe5e8;
+}
+
+/* friend */
+.container-request {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+  background-color: white;
+  text-align: center;
+  min-height: 260px;
+  border-radius: 5px;
+}
+.container-request p {
+  margin-bottom: 15px;
+}
+figure {
+  width: 50%;
+  margin: 10px auto;
+  line-height: 1;
+}
+.container-request figure img {
+  width: 100%;
+  min-height: 120px;
+}
+.check button {
+  border: transparent;
+  min-height: 25px;
+  color: white;
+  width: 48%;
+}
+.check {
+  width: 100%;
+}
+
+.check-1 {
+  background-color: rgb(76, 175, 80, 0.7);
+}
+.check-2 {
+  background-color: rgb(255, 99, 71, 0.7);
+}
+.ads,
+.bug {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  height: 85px;
+  width: 100%;
+}
+.bug {
+  height: 120px;
+}
+/* middle-center column
+ */
+.col3 {
+  margin: 10px;
+  text-align: left;
+  background-color: white;
+  padding: 0.15px 16px;
+  border-radius: 10px;
+}
+
+.pictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+  margin-top: 15px;
+}
+.aikolsphoto,
+.rachelsphoto {
+  border-radius: 50%;
+  margin-right: 16px;
+  float: left;
+}
+.center-column {
+  text-align: left;
+  background-color: white;
+  padding: 0.15px 16px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+h4 {
+  margin: 10px 0px;
+  font-weight: normal;
+}
+.time {
+  float: right;
+  color: #8c9498;
+}
+.button {
+  margin: 0 0 15px;
+  border: none;
+  padding: 10px 15px;
+  size: 15px;
+  color: white;
+}
+.center-column p {
+  margin: 15px 0;
+}
+#bootcampvenue {
+  color: black;
+}
+.status {
+  padding-right: 20px;
+}
+#statusholder {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid rgb(208, 205, 205);
+}
+
+.check i {
+  padding: 15px;
+}
+
+/* flex used for columns */
+.column {
+  flex-direction: column;
+}
+
+/* LEFT-COLUMN STARTS */
+.team-event-photos,
+.interests,
+.hey {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 15px;
+  text-align: left;
+  color: white;
+  background-color: #199de5;
+  border: none;
+}
+
+#btn-border {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.icon {
+  display: inline-block;
+  margin-right: 10px !important;
+  color: white;
+}
+.margin-left {
+  display: inline-block;
+  width: auto;
+  margin-left: 15px;
+  font-size: 20px;
+}
+.description {
+  padding: 15px;
+}
+.photo-display {
+  padding: 5px;
+}
+.photo-display .photo {
+  width: 40%;
+  display: inline-block;
+  margin: 7px;
+}
+.photo-display .photo img {
+  width: 100%;
+}
+.interests,
+.hey {
+  padding: 5px 15px;
+}
+.interests p,
+.hey p {
+  margin: 15px 0;
+}
+.hey {
+  background-color: #dfe5e8;
+  border: 1px solid #ccc;
+  position: relative;
+}
+#icon-top {
+  position: absolute;
+  background-color: #869ead;
+  padding: 10px;
+  width: 15px;
+  height: 15px;
+  right: 0px;
+  top: 0px;
+}
+/* LEFT-COLUMN ENDS */
+
+/* footer */
+footer {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 40px;
+}
+.footer {
+  background-color: #199de5;
+  padding: 30px 20px;
+}
+.team {
+  background-color: #2b617e;
+  font-size: 15px;
+  padding: 20px;
+}
+.team a {
+  color: white;
+}
+h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+p {
+  margin: 0;
+}
+/* media query is added */
+@media (max-width: 600px) {
+  .grid {
+    display: block;
+    margin: 20px;
+  }
+  .check {
+    display: block;
+  }
+  .check button {
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .interests,
+  .hey,
+  .nav-left {
+    display: none;
+  }
+  .center-column {
+    margin-top: 20px;
+  }
+
+  .photo-display .photo {
+    display: block;
+    width: 95%;
+    margin: 10px auto;
+  }
+  .pictures {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+  }
+  .container-events {
+    margin-top: 20px;
+  }
+  .container-events img {
+    width: 100%;
+  }
+  figure {
+    width: 65%;
+  }
+}
